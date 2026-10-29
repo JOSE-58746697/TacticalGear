@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: #121614;
+    color: #f8fafc;
+    overflow-x: hidden;
+  }
+}
+
+.font-condensed {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Authentic Tactical Military Background: Tiger Stripe / Stealth Camo */
+.military-filigree {
+  background-color: #121614;
+  background-image: 
+    radial-gradient(circle at 50% 30%, rgba(18, 22, 20, 0.4) 0%, rgba(9, 12, 10, 0.85) 100%),
+    url('/assets/camo-seamless.png');
+  background-size: auto, 340px 290px;
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed, fixed;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}

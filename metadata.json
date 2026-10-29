@@ -1,0 +1,6 @@
+{
+  "name": "TACTICAL GEAR - Equipamiento y Ropa Militar",
+  "description": "Tienda táctica de indumentaria militar, chaquetas térmicas, pantalones ripstop y botas de combate. Atención y pedidos directos por WhatsApp 3202364730.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
